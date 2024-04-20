@@ -142,3 +142,62 @@ It seems like you're referring to a DataFrame object in pandas. A DataFrame is a
 ### Example Data Frame from File CSV
 
 ![image](https://github.com/alnimashakiya/Phyton_Learning_Week-2/assets/165742697/1bcad44d-b0b7-4a78-b576-fb509ee08e84)
+
+# RANDOM LIBRARY
+The random library in Python provides functionalities for generating random numbers. It's commonly used in various applications ranging from simulations to games to cryptography.
+Here's a basic overview of some commonly used functions from the random module:
+
+- random(): This function returns a random floating-point number in the range [0.0, 1.0).
+- randint(a, b): Returns a random integer N such that a <= N <= b.
+- choice(seq): Returns a random element from the non-empty sequence seq.
+- shuffle(seq): Randomly shuffles the elements of the sequence seq in place.
+- sample(population, k): Returns a k length list of unique elements chosen from the population sequence or set.
+  
+These are just a few functions from the random module. There are more functions available for different specific purposes like generating random choices from weighted distributions, generating random numbers with a specified distribution (normal distribution, for example), and more.
+
+### Example
+
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/6657583a-8cbd-4adc-9935-fa6be57c1a2a)
+
+# DATETIME
+In Python, the datetime module provides classes for manipulating dates and times. Here's an overview of how to use the datetime module:
+
+## 1. Importing the datetime module
+Before using any functionality from the datetime module, you need to import it:
+_import datetime_
+
+## 2. Date and Time Objects
+The datetime module provides several classes for representing dates and times:
+- datetime.date: Represents a date (year, month, day).
+- datetime.time: Represents a time (hour, minute, second, microsecond).
+- datetime.datetime: Represents both date and time.
+- datetime.timedelta: Represents a duration or difference between two dates or times.
+- datetime.timezone: Represents a time zone.
+  
+## 3. Creating Date and Time Objects
+You can create date and time objects using the constructors provided by the datetime module:
+   
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/c63e455c-75e9-463a-8e97-6a8a949df179)
+
+## 4. Formatting and Parsing
+You can format date and time objects into strings using the strftime() method and parse strings into date and time objects using the strptime() function:
+
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/e5022f65-59eb-48c4-a775-02a8cb470fba)
+
+# TXT FILE
+A text file, commonly known as a .txt file, is a file containing plain text in the form of a sequence of characters. Text files do not contain any special formatting like those found in document files (such as Microsoft Word or HTML files). This means that the text in a text file is typically stored in a simple format, without colors, styles, or other design elements.
+
+Text files are one of the most common types of files used in computing. They are often used to store data in a human-readable or machine-readable text format. Examples of the use of text files include storing simple data, logs, program source code, system configurations, and much more.
+
+Text files typically have the ".txt" extension at the end of the file name to indicate that it is a text file. However, in some cases, text files may also have different extensions depending on the type of data or format used.
+
+## Here's how you can create a text file and write some content to it:
+
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/4919c802-b4d5-42be-868d-abeecb6ebc79)
+
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/c287cdeb-3345-4e65-877e-706d70a26212)
+
+![image](https://github.com/alnimashakiya/Phyton_Learning_Week2/assets/165742697/7460e973-0a67-47ee-bd89-a04f50f91167)
+
+
+
